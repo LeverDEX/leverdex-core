@@ -1,5 +1,5 @@
 {
-  "name": "marginswap-core",
+  "name": "leverdex-core",
   "version": "1.0.0",
   "description": "Core contracts for marginswap functionality",
   "main": "truffle-config.js",
