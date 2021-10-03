@@ -32,9 +32,10 @@ uint256 constant DISABLER = 1001;
 uint256 constant DEPENDENCY_CONTROLLER = 1002;
 
 /// @title Manage permissions of contracts and ownership of everything
-/// owned by a multisig wallet (0xEED9D1c6B4cdEcB3af070D85bfd394E7aF179CBd) during
+/// owned by a multisig wallet (0x+0000+EED9D1c6B4cdEcB3af070D85bfd394E7aF179CBd) during
 /// beta and will then be transfered to governance
-/// https://github.com/marginswap/governance
+/// https://github.com/leverdex/governance
+/// Fork from: https://github.com/uniswap/governance
 contract Roles is Ownable {
     mapping(address => mapping(uint256 => bool)) public roles;
     mapping(uint256 => address) public mainCharacters;

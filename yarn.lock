@@ -1615,10 +1615,8 @@
     lodash.camelcase "^4.3.0"
     protobufjs "^6.8.6"
 
-"@marginswap/core-abi@1.2.11":
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/@marginswap/core-abi/-/core-abi-1.2.11.tgz#eb07c629734a7929c9c883c0a24a74495739f159"
-  integrity sha512-sYiW5aXX2axJ6WYl2jg5Mvci9GWRqxxC1CCshE6M4ybOoXAjVY59I7nmPETxgrlfFCAv0GgKW63TyrgcrF16Ug==
+"@leverdex/core-abi@file:../leverdex-core-abi":
+  version "1.4.1"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"

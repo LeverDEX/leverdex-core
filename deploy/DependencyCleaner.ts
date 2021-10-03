@@ -1,7 +1,7 @@
 import { HardhatRuntimeEnvironment } from 'hardhat/types';
 import { DeployFunction } from 'hardhat-deploy/types';
 import { ethers } from 'hardhat';
-import contractAddresses from '@marginswap/core-abi/addresses.json';
+import contractAddresses from '@leverdex/core-abi/addresses.json';
 import { BigNumber } from 'ethers';
 
 
