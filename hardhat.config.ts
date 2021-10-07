@@ -124,7 +124,7 @@ const homedir = require('os').homedir();
 const privateKey = fs.readFileSync(`${homedir}/.leverdex-secret`).toString().trim();
 function infuraUrl(networkName: string) {
   // return `https://eth-${networkName}.alchemyapi.io/v2/AcIJPH41nagmF3o1sPArEns8erN9N691`;
-   return `https://${networkName}.infura.io/v3/ae52aea5aa2b41e287d72e10b1175491`;
+   return `https://${networkName}.infura.io/v3/692b3d855eca48a8b60d608a6a0c34b0`;
 }
 
 /**
